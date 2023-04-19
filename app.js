@@ -8,8 +8,8 @@ const dotenv=require("dotenv")
 const { connect } = require("mongoose");
 const mongoose = require("mongoose");
 dotenv.config();
-
-mongoose.connect("mongodb://127.0.0.1:27017/ritiriwaz", {
+const db_url  = process.env.DATABASE_URL ;
+mongoose.connect(db_url , {
   useNewUrlParser: true,
 });
 

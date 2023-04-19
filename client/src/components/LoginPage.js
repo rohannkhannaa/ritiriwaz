@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Col, Button, Row, Container, Card, Form } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
-import axios from "axios";
+import axios from "./axios";
 import "./css/LoginPage.css"
 export default function Registration() {
   const [renderLogin, setRenderLogin] = useState(true);
