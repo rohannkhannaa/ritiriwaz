@@ -1,11 +1,22 @@
 .headingImage {
     padding: 7rem;
     width: 100%;
-    height: max-content; /* 56px is the height of the navbar, adjust accordingly */
+    height: 91vh;
+    /* 56px is the height of the navbar, adjust accordingly */
     background-image: url("");
-    background-size: cover;
+    /* background-size; */
     background-position: center;
     background-repeat: no-repeat;
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../image/largebg.webp');
 }
-
+.addedRegister{
+    padding: 7rem;
+    width: 100%;
+    /* 56px is the height of the navbar, adjust accordingly */
+    /* background-size; */
+    height : 140vh  !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../image/largebg.webp');
+    height: 91vh;
+}
