@@ -93,6 +93,7 @@ export default function Registration() {
         alert("Please try again in a moment");
       }
     })
+    window.location.reload('/welcome')
   };
   return (
     <div className="bgHandler">

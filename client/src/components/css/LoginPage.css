@@ -3,11 +3,8 @@ body{
 }
 
 .bgHandler{
-    background-image: url('../../background.jpg');
-
-    background-repeat: no-repeat;
+  
     width: 100%;
     height: 200%;
-    object-fit: fill;
     margin: auto;
   }
