@@ -1,7 +1,7 @@
 .headingImage {
     padding: 7rem;
     width: 100%;
-    height: 150vh; /* 56px is the height of the navbar, adjust accordingly */
+    height: max-content; /* 56px is the height of the navbar, adjust accordingly */
     background-image: url("");
     background-size: cover;
     background-position: center;

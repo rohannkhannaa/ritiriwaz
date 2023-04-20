@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import axios from "./axios";
 import 'bootstrap/dist/css/bootstrap.min.css';  
-import { Navbar, Container, Nav, NavDropdown, Row, Col } from 'react-bootstrap';  
+import { Navbar, Container, Nav, NavDropdown, Row, Col, Button } from 'react-bootstrap';  
 import LoginPage from './LoginPage';
 import "./css/WelcomePage.css"
 import Popup from "reactjs-popup";
@@ -37,6 +37,19 @@ export default function Registration() {
       <Container>
         <Row>
           <h3 style={{color: 'white'}}className="text-center my-5">Your wedding, your way</h3>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col className="text-center">
+            {
+              component ? (<>
+            <Button variant="danger" onClick={()=>{setComponent(false)}}>Close</Button>
+              </>) : (<>
+            <Button variant="danger" onClick={()=>{setComponent(true)}}>Login/Register</Button>
+              </>)
+            }
+          </Col>
         </Row>
       </Container>
       {

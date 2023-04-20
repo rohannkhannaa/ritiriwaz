@@ -5,7 +5,7 @@ import FloatingLabel from "react-bootstrap/FloatingLabel";
 import axios from "./axios";
 import "./css/LoginPage.css"
 export default function Registration() {
-  const [renderLogin, setRenderLogin] = useState(true);
+  const [renderLogin, setRenderLogin] = useState(false);
   const handleSignUp = () => {
     setRenderLogin(false);
   };
