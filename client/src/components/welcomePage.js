@@ -72,7 +72,8 @@ export default function Registration() {
         </Row>
       </Container>
       {
-        component ? (<div className="my-1">
+        component ? (
+        <div className="my-1">
             <LoginPage/>
         </div>):(<></>)
       }

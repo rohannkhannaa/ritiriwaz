@@ -99,8 +99,8 @@ export default function Registration() {
     <div >
       {renderLogin ? (
         <>
-          <Container style={{paddingTop : '0px'}}>
-            <Row style={{paddingTop : '0px'}} className="vh-100 my-1 d-flex justify-content-center align-items-center">
+          <Container >
+            <Row className="vh-100 d-flex justify-content-center align-items-center">
               <Col md={8} lg={6} xs={12}>
                 <Card className=" shadow px-4">
                   <Card.Body>
