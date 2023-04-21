@@ -1,7 +1,7 @@
 .headingImage {
-    padding: 7rem;
+    /* padding: 7rem; */
     width: 100%;
-    height: 91vh;
+    height: 140vh;
     /* 56px is the height of the navbar, adjust accordingly */
     background-image: url("");
     /* background-size; */
@@ -10,7 +10,7 @@
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../image/largebg.webp');
 }
 .addedRegister{
-    padding: 7rem;
+    /* padding: 7rem; */
     width: 100%;
     /* 56px is the height of the navbar, adjust accordingly */
     /* background-size; */

@@ -93,25 +93,22 @@ export default function Registration() {
         alert("Please try again in a moment");
       }
     })
-    window.location.reload('/welcome')
+    window.open("/dashboard")
   };
   return (
-    <div className="bgHandler">
+    <div >
       {renderLogin ? (
         <>
-          <Container>
-            <Row className="vh-100 d-flex justify-content-center align-items-center">
+          <Container style={{paddingTop : '0px'}}>
+            <Row style={{paddingTop : '0px'}} className="vh-100 my-1 d-flex justify-content-center align-items-center">
               <Col md={8} lg={6} xs={12}>
-                <div className="border border-2 border-danger"></div>
-                <Card className="shadow px-4">
+                <Card className=" shadow px-4">
                   <Card.Body>
-                    <div className="mb-3 mt-md-4">
                       <h2 className="fw-bold mb-2 text-center text-uppercase ">
                         Riti Riwaz
                       </h2>
                       <hr />
-                      <div className="mb-3">
-                        <Form onSubmit={handleLoginSubmit}>
+                        <Form className="container"onSubmit={handleLoginSubmit}>
                           <Form.Group className="mb-3" controlId="email">
                             <FloatingLabel
                               controlId="email"
@@ -161,8 +158,7 @@ export default function Registration() {
                             </button>
                           </p>
                         </div>
-                      </div>
-                    </div>
+                    
                   </Card.Body>
                 </Card>
               </Col>

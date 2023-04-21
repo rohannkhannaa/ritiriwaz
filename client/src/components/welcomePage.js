@@ -63,18 +63,18 @@ export default function Registration() {
           <Col className="text-center">
             {
               component ? (<>
-            <Button variant="danger" onClick={()=>{setComponent(false)}}>Close</Button>
+            <Button className="my-3" variant="danger" onClick={()=>{setComponent(false)}}>Close</Button>
               </>) : (<>
-            <Button variant="danger" onClick={()=>{setComponent(true)}}>Login/Register</Button>
+            <Button className="my-3" variant="danger" onClick={()=>{setComponent(true)}}>Login/Register</Button>
               </>)
             }
           </Col>
         </Row>
       </Container>
       {
-        component ? (<>
+        component ? (<div className="my-1">
             <LoginPage/>
-        </>):(<></>)
+        </div>):(<></>)
       }
       </div>
       {/* <div className='carousel-div'>

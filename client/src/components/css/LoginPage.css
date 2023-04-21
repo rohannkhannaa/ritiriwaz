@@ -1,8 +1,9 @@
-body{
+.container{
+  width: fit-content;
+  padding : 0;
 }
-
-.bgHandler{
-    width: 99%;
-    height: 75vh;
-    margin: auto;
+@media only screen and (max-width: 600px) {
+  .container {
+    width: fit-content;
   }
+}
