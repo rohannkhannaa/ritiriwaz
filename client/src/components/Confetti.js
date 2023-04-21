@@ -9,7 +9,7 @@ export default () => {
       setNum(0);
     }, 2000);
   }
-  func();
+  // func();
   return (
     <Confetti
     numberOfPieces = {num}
