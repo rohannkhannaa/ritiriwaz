@@ -102,14 +102,15 @@ export default function Registration() {
           <Container >
             <Row className="vh-100 d-flex justify-content-center align-items-center">
               <Col md={8} lg={6} xs={12}>
-                <Card className=" shadow px-4">
+              {/* <div className="border border-2 border-danger"></div> */}
+                <Card style={{width : 'max-content'}} className=" shadow px-4">
                   <Card.Body>
                       <h2 className="fw-bold mb-2 text-center text-uppercase ">
                         Riti Riwaz
                       </h2>
                       <hr />
-                        <Form className="container"onSubmit={handleLoginSubmit}>
-                          <Form.Group className="mb-3" controlId="email">
+                        <Form onSubmit={handleLoginSubmit}>
+                          <Form.Group className="" controlId="email">
                             <FloatingLabel
                               controlId="email"
                               label="Email address"
@@ -170,8 +171,8 @@ export default function Registration() {
           <Container>
             <Row className="vh-100 d-flex justify-content-center align-items-center">
               <Col md={8} lg={6} xs={12}>
-                <div className="border border-2 border-danger"></div>
-                <Card className="shadow px-4">
+                {/* <div className="border border-2 border-danger"></div> */}
+                <Card style={{width : 'max-content'}}className="shadow px-4">
                   <Card.Body>
                     <div className="mb-3 mt-md-4">
                       <h2 className="fw-bold mb-2 text-center text-uppercase ">

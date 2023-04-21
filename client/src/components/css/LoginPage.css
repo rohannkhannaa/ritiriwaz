@@ -1,6 +1,6 @@
 .container{
-  width: fit-content;
-  /* padding : 0; */
+  width: 200rem !important;
+  padding : 0;
 }
 @media only screen and (max-width: 600px) {
   .container {
